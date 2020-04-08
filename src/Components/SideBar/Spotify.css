@@ -1,0 +1,26 @@
+.spotify-component{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1DB954;
+  height: 300px;
+  width: 400px;
+  margin-bottom: 60px;
+  animation: slideIn .5s ease-in-out 1 backwards;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+
+@keyframes slideIn{
+
+  0%{
+    opacity: 0;
+    filter: blur(30px)
+  }
+
+  100%{
+    opacity: .9;
+    filter: blur(0px);
+  }
+}

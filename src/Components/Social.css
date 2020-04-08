@@ -1,0 +1,20 @@
+.social{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 200px;
+}
+.logos{
+    color:grey;
+    font-size: 25px;
+}
+
+.logos:hover {
+    text-shadow:3px 6px rgba(15, 15, 15, 0.75);
+    color: #FF3C1F;
+    transition: .3s;
+}

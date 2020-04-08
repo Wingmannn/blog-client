@@ -1,0 +1,29 @@
+.twitter-component{
+  padding: 3px;
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  flex-direction: column;
+  background: rgb(25, 135, 204);
+  height: 300px;
+  width: 800px;
+  margin-bottom: 60px;
+  animation: slideIn .5s ease-in-out 1 backwards;
+  border-radius: 20px;
+  color:rgb(255, 255, 255);
+  overflow: auto;
+}
+
+
+@keyframes slideIn{
+
+  0%{
+    opacity: 0;
+    filter: blur(30px)
+  }
+
+  100%{
+    opacity: .9;
+    filter: blur(0px);
+  }
+}

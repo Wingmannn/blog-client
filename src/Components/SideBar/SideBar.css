@@ -1,0 +1,86 @@
+.sidebar {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    width: 3.5rem;
+}
+
+.twitter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #1DA1F2;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+
+    height: 50px;
+    width: 10px;
+    transition: .3s;
+}
+
+.twitter:hover {
+    width: 50px;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    transition: .3s;
+    background: url(../../Assets/Icons/twitter.svg);
+    background-repeat: no-repeat;
+    background-color: #1DA1F2;
+    background-size: 50%;
+    background-position: center;
+    
+}
+
+
+.spotify {
+    height: 50px;
+    width: 10px;
+    background-repeat: no-repeat;
+    background-color: #1DB954;
+    background-size: 50%;
+    background-position: center;
+    transition: .3s;
+}
+
+.spotify:hover {
+    width: 50px;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    background: url(../../Assets/Icons/spotify.svg);
+    background-repeat: no-repeat;
+    background-color: #1DB954;
+    background-size: 50%;
+    background-position: center;
+    transition: .3s;
+}
+
+
+.guest {
+    height: 50px;
+    width: 10px;
+    background-repeat: no-repeat;
+    background-color: rgb(240, 144, 0);
+    background-size: 50%;
+    background-position: center;
+    transition: .3s;
+}
+
+.guest:hover {
+    width: 50px;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    background: url(../../Assets/Icons/guestbook.svg);
+    background-repeat: no-repeat;
+    background-color: rgb(240, 144, 0);
+    background-size: 50%;
+    background-position: center;
+    transition: .3s;
+}
+

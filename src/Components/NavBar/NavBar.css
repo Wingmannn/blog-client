@@ -1,0 +1,34 @@
+.navbar{
+    position: absolute;
+    top: 0px;
+    left: 0px;    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 3.5rem;
+    height: 100%;
+    background-color: rgb(37, 38, 41);
+
+}
+
+.icons{
+    margin-top: 10px;
+    color:  #A6ABAF;
+    font-size: 1.75rem;
+
+}
+
+.icons:hover{
+    text-shadow:3px 6px rgba(15, 15, 15, 0.75);
+    color: #FF3C1F;
+    transition: .3s;
+    margin-left: 5px;
+
+}
+
+
+#home{
+    margin-top: auto;
+    margin-bottom: 10px;
+}

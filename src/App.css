@@ -1,0 +1,12 @@
+.App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    height: 100vh;
+    background-image: url("./Assets/Images/deneme.png");
+    background-position: center;
+    background-size: cover;
+}
+

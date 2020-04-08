@@ -1,0 +1,14 @@
+.crt-user-component{
+  padding: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 300px;
+  width: 800px;
+  margin-bottom: 60px;
+  border-radius: 20px;
+  color:rgb(255, 255, 255);
+}
+
+
